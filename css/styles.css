@@ -363,10 +363,10 @@ ul {
   height: 92px;
   border: 1px solid var(--icon-svg-color);
   border-radius: 4px;
-  position: center;
-
-  padding: 16px 32px ;
+  justify-content: center;
+  align-items: center;
 }
+
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -377,11 +377,40 @@ ul {
 .clients-link {
   fill: var(--icon-svg-color);
 }
-.clients-link:hover, 
+.clients-link:hover,
 .clients-link:focus{
   fill: var(--accent-color-blue);
 }
 
+.clients .clients-list .clients-item:hover,
+.clients .clients-list .clients-item:focus {
+  /* border-color:var(--accent-color-blue); */
+  /* fill: var(--accent-color-blue); */
+}
+
+.clients .clients-list .clients-item:hover{
+/* .clients .clients-list .clients-item .clients-link:focus{ */
+  border-color:var(--accent-color-blue);
+}
+/* .clients .clients-list .clients-item:focus{ 
+  border-color:var(--accent-color-blue);
+} */
+
+/* .clients-item .clients-link:hover,
+.clients-item .clients-link:focus {
+  border-color:var(--accent-color-blue);
+  fill: var(--accent-color-blue);
+} */
+/* .clients-item:hover .clients-link{
+border-color: var(--accent-color-blue);
+ fill: var(--accent-color-blue); 
+} */
+/* 
+.clients-item .clients-link:hover,
+.clients-item .clients-link:focus {
+  border-color:var(--accent-color-blue);
+  fill: var(--accent-color-blue);
+} */
 
 
 
