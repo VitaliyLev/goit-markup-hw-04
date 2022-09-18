@@ -119,6 +119,7 @@ ul {
 .auth-nav .link:focus {
   color: var(--accent-color-blue);
   stroke: var(--accent-color-blue);
+  outline: none;
 }
 
 .auth-nav {
@@ -211,6 +212,7 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .features-title {
   margin-bottom: 10px;
 
@@ -337,6 +339,7 @@ ul {
 .team-link:focus {
   fill: var(--color-white); 
   background-color: var(--accent-color-blue);
+  outline: none;
 }
 
 
@@ -377,6 +380,7 @@ ul {
 .clients-link:focus{
   fill: var(--accent-color-blue);
   border-color:var(--accent-color-blue);
+  outline: none;
 }
 
 
@@ -466,6 +470,7 @@ ul {
 .social-link:focus {
   fill: var(--color-white);
   background-color: var(--accent-color-blue);
+  outline: none;
 }
 
 
